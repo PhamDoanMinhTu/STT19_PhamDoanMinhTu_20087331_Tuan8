@@ -9,7 +9,7 @@ import screen4 from './source/screen4';
 
 export default function App() {
 const Stack = createNativeStackNavigator();
-//hhhhhhhhhhhhhhhhh
+
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home" screenOptions={{ headerShown: true }}>
