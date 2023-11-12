@@ -2,10 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import screen1 from './src/screen1';
-import screen2 from './src/screen2';
-import screen3 from './src/screen3';
-import screen4 from './src/screen4';
+import screen1 from './source/screen1';
+import screen2 from './source/screen2';
+import screen3 from './source/screen3';
+import screen4 from './source/screen4';
 
 export default function App() {
 const Stack = createNativeStackNavigator();
